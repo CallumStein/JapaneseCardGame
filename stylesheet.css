@@ -130,8 +130,8 @@ body {
 
 #modal {
     display: flex;
-    width: 50rem;
-    aspect-ratio: 5 / 3;
+    width: 75rem;
+    aspect-ratio: 6 / 2.5;
     position: relative;
     background-color: rgb(50 50 50);
     border: 0.5rem solid rgb(30 30 30);
@@ -318,11 +318,14 @@ label {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     display: block;
+    padding: 0.85rem;
     width: 300px;
     height: 200px;
     position: relative;
-    left: 5%;
-    top: 50%;
+    left: 13.33%;
+    top: 25%;
+    justify-content: center;
+    align-items: center;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     cursor: pointer;
